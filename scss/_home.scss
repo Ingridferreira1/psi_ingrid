@@ -330,6 +330,37 @@
     }
 
   }
+  @include respo('mobile2'){
+    padding-top: 6rem;
+    .hero-content{
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+      justify-content: center;
+
+      .left{
+          max-width: 38rem;
+          width: 100%
+      }
+      .right{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        h3{
+          margin-bottom: 2.4rem
+        }
+        p{
+          width: 100%;
+          
+        }
+        
+
+      }
+    }
+
+  }
+  
 }
 
 .s-approach{
@@ -461,8 +492,22 @@
         .borboleta2{
           width: 45%;
           position: absolute;
-          bottom: -4rem;
-          right: -6rem;
+          bottom: -5rem;
+          right: -2rem;
+
+        }
+      }
+    }
+  }
+  @include respo('mobile2'){
+    .hero-content{
+      @include flex-mobile;
+      .card-testimonials{
+        .borboleta2{
+          width: 45%;
+          position: absolute;
+          bottom: -5rem;
+          right: -2rem;
 
         }
       }
