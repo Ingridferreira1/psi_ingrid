@@ -24,7 +24,7 @@ $breakpoints: (
   'laptop': 1200px,
   'tablet': 991px,
   'mobile': 560px,
-  'mobile2': 430px
+  'mobile2': 400px
 );
 
 @mixin respo($breakpoint-name){

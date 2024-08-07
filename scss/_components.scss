@@ -99,6 +99,17 @@ padding: 1.8rem 5.5rem;
       width: 28.1rem;
     }
   }
+  @include respo('mobile2'){
+    gap: 1rem;
+    width: 100%;
+    max-width: 34rem;
+    height: 68px;
+
+    p{
+      font-size: 1.4rem;
+      width: 28.1rem;
+    }
+  }
 }
 
 .r-card{
@@ -134,6 +145,17 @@ padding: 1.8rem 5.5rem;
     gap: 1.2rem;
     width: 100%;
     max-width: 40.3rem;
+    height: 68px;
+
+    p{
+      font-size: 1.4rem;
+      width: 28.1rem;
+    }
+  }
+  @include respo('mobile2'){
+    gap: 1rem;
+    width: 100%;
+    max-width: 34rem;
     height: 68px;
 
     p{

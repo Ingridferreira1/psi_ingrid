@@ -220,6 +220,34 @@
     
     }
   }
+  @include respo('mobile2'){
+    
+    padding-top: 10rem;
+    .hero-content{
+     @include flex-mobile;
+     .txt{
+      width: 100%;
+      
+      @include flex-mobile;
+      margin-bottom: 4rem;
+      h2{
+        font-size: 3rem;
+        width: 100%;
+        max-width: 40.3rem;
+      }
+      p{
+        width: 100%;
+        width: 34.3rem;
+      }
+     }
+     .card{
+      margin-top: 1rem;
+      @include flex-mobile;
+      gap: 0rem;
+     }
+    
+    }
+  }
 }
 
 .s-about{
