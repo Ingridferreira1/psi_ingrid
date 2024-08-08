@@ -650,6 +650,37 @@
       }
     }
   }
+  @include respo('mobile2'){
+    .hero-content{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      .left{
+        margin-bottom: 8rem;
+        margin-left: 0rem;
+        @include flex-mobile;
+        .txt1{
+          @include flex-mobile;
+          p{
+            font-size: 1.6rem;
+          }
+        }
+
+      }
+      .right{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        h4{
+          text-align: center;
+        }
+        .redes{
+          display: flex;
+        }
+      }
+    }
+  }
 }
 
 footer{
